@@ -1,13 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("give me a number");
 
-string number = Console.ReadLine();
+//Kings position
+string kingposition; // declaring variable
+kingposition = "D1"; // initialize a variable (assign value 1st time) 
+Console.WriteLine(kingposition);
 
-double dbl = double.Parse(number);
-Console.WriteLine(dbl);
-
-int sgl = (int)dbl;
-Console.WriteLine(sgl);
-
-int og = Convert.ToInt32(number);
-Console.WriteLine(og);
+//we assign the value D2 to variable to kingposition
+kingposition = "d2";
+// we pass the value of the variable to console
+Console.WriteLine(kingposition);
