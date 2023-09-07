@@ -24,10 +24,10 @@ else
 Console.WriteLine("Give me another integer");
 int number = int.Parse(Console.ReadLine());
 
-int max = age > number ? age : number;
-Console.WriteLine($"the higher integer is: {max}");
+if (number > age) ;
+Console.WriteLine($"the higher integer is: {number}");
 
-if (max % 2 == 0)
+if (number % 2 == 0)
 {
     Console.WriteLine("your number is even");
 }
