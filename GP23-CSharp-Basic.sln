@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI Exercise", "BMI Exercis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booelan exercise", "Booelan exercise\Booelan exercise.csproj", "{D346D86A-20F3-4911-B440-CD0B4BDF98FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchingExercise11", "BranchingExercise11\BranchingExercise11.csproj", "{1A701A03-BA1D-4E08-B98D-24129035457B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A701A03-BA1D-4E08-B98D-24129035457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A701A03-BA1D-4E08-B98D-24129035457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A701A03-BA1D-4E08-B98D-24129035457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A701A03-BA1D-4E08-B98D-24129035457B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

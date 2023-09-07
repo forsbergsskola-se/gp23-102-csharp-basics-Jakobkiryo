@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+//find out what age/category user is.
+
 
 Console.WriteLine("what is your age?");
 
