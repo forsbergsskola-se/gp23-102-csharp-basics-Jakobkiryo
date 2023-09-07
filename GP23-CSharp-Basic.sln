@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booleans", "Booleans\Boolea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI Exercise", "BMI Exercise\BMI Exercise.csproj", "{39EAC139-3F51-4347-8868-48D518B51906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booelan exercise", "Booelan exercise\Booelan exercise.csproj", "{D346D86A-20F3-4911-B440-CD0B4BDF98FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{39EAC139-3F51-4347-8868-48D518B51906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EAC139-3F51-4347-8868-48D518B51906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EAC139-3F51-4347-8868-48D518B51906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D346D86A-20F3-4911-B440-CD0B4BDF98FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
