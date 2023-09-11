@@ -5,12 +5,12 @@
 Console.WriteLine("Write your Weight and Height");
 
 string userinput = Console.ReadLine();
-double weight = double.Parse(userinput);
+float weight = float.Parse(userinput);
 
 string userinput2 = Console.ReadLine();
-double height = double.Parse(userinput2);
+float height = float.Parse(userinput2);
 
-double BMI = weight/height/height;
+double BMI = weight / (height*height /100f / 100f);
 
 Console.WriteLine($"Your BMI {BMI}");
 

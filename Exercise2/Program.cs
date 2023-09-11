@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //How to convert mintues in to seconds:
-// P9Operators:
+// Exercise2:
 
 Console.WriteLine("Welcome to minutes to seconds converter");
 

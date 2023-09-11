@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Comments", "P4Comments\P4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Variables", "P5Variables\P5Variables.csproj", "{39A0E28F-D072-476A-BF4A-C1EF0D40A216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\P9Operators.csproj", "{7BD8A3C6-4A22-449C-97CD-DC0373D4D2EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2", "Exercise2\Exercise2.csproj", "{7BD8A3C6-4A22-449C-97CD-DC0373D4D2EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{862428D3-4F12-4CC2-9342-A013720D6896}"
 EndProject
@@ -22,13 +22,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise6", "Exercise6\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7", "Exercise7\Exercise7.csproj", "{3192BBAA-27F1-42C3-8668-4C8A8D20287F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booleans", "Booleans\Booleans.csproj", "{9409D2A9-A4D6-455E-BAAC-02CB35A5A384}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleansExample", "BooleansExample\BooleansExample.csproj", "{9409D2A9-A4D6-455E-BAAC-02CB35A5A384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI Exercise", "BMI Exercise\BMI Exercise.csproj", "{39EAC139-3F51-4347-8868-48D518B51906}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise8", "Exercise8\Exercise8.csproj", "{39EAC139-3F51-4347-8868-48D518B51906}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booelan exercise", "Booelan exercise\Booelan exercise.csproj", "{D346D86A-20F3-4911-B440-CD0B4BDF98FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooelanExercise", "BooelanExercise\BooelanExercise.csproj", "{D346D86A-20F3-4911-B440-CD0B4BDF98FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchingExercise11", "BranchingExercise11\BranchingExercise11.csproj", "{1A701A03-BA1D-4E08-B98D-24129035457B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise10", "Exercise10\Exercise10.csproj", "{EDEB4816-5324-4B5B-84D8-1157D44899AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,5 +98,9 @@ Global
 		{1A701A03-BA1D-4E08-B98D-24129035457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A701A03-BA1D-4E08-B98D-24129035457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A701A03-BA1D-4E08-B98D-24129035457B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
