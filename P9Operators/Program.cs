@@ -1,7 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//P9Operators
-// Welcome to mintues to seconds converter
-// print the result of converting the value to secon
 
 //How to convert mintues in to seconds:
 // P9Operators:
