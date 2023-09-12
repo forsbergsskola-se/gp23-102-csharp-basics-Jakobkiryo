@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchingExercise11", "Bran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise10", "Exercise10\Exercise10.csproj", "{EDEB4816-5324-4B5B-84D8-1157D44899AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "RandomNumbers\RandomNumbers.csproj", "{61D04FFD-C19B-4555-921F-6D7FECCB0836}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEB4816-5324-4B5B-84D8-1157D44899AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D04FFD-C19B-4555-921F-6D7FECCB0836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D04FFD-C19B-4555-921F-6D7FECCB0836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D04FFD-C19B-4555-921F-6D7FECCB0836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D04FFD-C19B-4555-921F-6D7FECCB0836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
