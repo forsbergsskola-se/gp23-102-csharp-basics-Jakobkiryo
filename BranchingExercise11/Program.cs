@@ -10,7 +10,7 @@ if (age < 12)
 {
     Console.WriteLine("You are a child");
 }
-else if (age < 18)
+else if (age <= 18)
 {
     Console.WriteLine("You are a teenager");
 }
@@ -22,15 +22,23 @@ else
 //2nd part of the exercise
 
 Console.WriteLine("Give me another integer");
-int number = int.Parse(Console.ReadLine());
+string numberinput = Console.ReadLine();
+int number = int.Parse(numberinput);
 
-if (number > age) ;
-Console.WriteLine($"the higher integer is: {number}");
+if (number >= age)
+{
+    Console.WriteLine($"the higher integer is: {number}");
+}
+else
+{
+    Console.WriteLine($"the higher integer is {age}");
+}
 
 if (number % 2 == 0)
 {
     Console.WriteLine("your number is even");
 }
+
 else
 {
     Console.WriteLine("your number is odd");
