@@ -20,21 +20,28 @@ if (userInput is >3 or < 1)
 
 if (userInput >= 0 && totalMatches <= 24);
 
-//players turn.
+//players turn. if player draws to 0 = lost
 
-{
     int userDraw = totalMatches - userInput;
     Console.WriteLine($"Player draws {userInput}");
     totalMatches -= userInput;
-    
-//AI:S turn
-    int aiChoice = Random.Shared.Next(1, 4);
+    if (totalMatches == 0)
+    {
+        Console.WriteLine("You lose");
+        goto Gameover;
+    }
+
+//AI:S turn, if ai draws to 0 = Lost
+   int aiChoice = Random.Shared.Next(1, 4);
     Console.WriteLine($"The AI draws {aiChoice}");
     totalMatches -= aiChoice;
     Console.WriteLine("Matches Reamining:" + totalMatches);
-
+    if (totalMatches == 0)
+    {
+        Console.WriteLine("You win");
+        goto Gameover;
+    }
     goto matches;
-    
-}
 
-// win and game over
+Gameover: ;
+
