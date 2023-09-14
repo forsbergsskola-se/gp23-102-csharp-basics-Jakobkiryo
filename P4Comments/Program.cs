@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//How to put comments between line of coding etc.
 
 
 // Author:Jakob Kiryo 

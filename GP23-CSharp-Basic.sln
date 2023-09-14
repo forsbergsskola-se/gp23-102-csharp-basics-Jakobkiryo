@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "RandomNumb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise9", "Exercise9\Exercise9.csproj", "{2158DDC3-254C-4136-9676-7A41F5B15922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6Types", "P6Types\P6Types.csproj", "{611D770D-9542-43BD-9CB4-D6AD850ECAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{2158DDC3-254C-4136-9676-7A41F5B15922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2158DDC3-254C-4136-9676-7A41F5B15922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2158DDC3-254C-4136-9676-7A41F5B15922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611D770D-9542-43BD-9CB4-D6AD850ECAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611D770D-9542-43BD-9CB4-D6AD850ECAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611D770D-9542-43BD-9CB4-D6AD850ECAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611D770D-9542-43BD-9CB4-D6AD850ECAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

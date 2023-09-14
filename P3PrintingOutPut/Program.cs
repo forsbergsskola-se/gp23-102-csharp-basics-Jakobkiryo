@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Net.Http.Json;
+﻿//How to write in console.
 
 Console.WriteLine("Hello, World!");
 
