@@ -6,6 +6,7 @@ Console.WriteLine("Welcome to Nim");
 Console.WriteLine("|||||||||||||||||||||||| (24)");;
 
 int totalMatches = 24;
+
 matches:
     Console.WriteLine("How many matches do you want to draw?");
     int userInput = int.Parse(Console.ReadLine());
@@ -27,7 +28,7 @@ if (userInput >= 0 && totalMatches <= 24);
     totalMatches -= userInput;
     if (totalMatches == 0)
     {
-        Console.WriteLine("You lose");
+        Console.WriteLine("Player Lose");
         goto Gameover;
     }
 
@@ -38,10 +39,12 @@ if (userInput >= 0 && totalMatches <= 24);
     Console.WriteLine("Matches Reamining:" + totalMatches);
     if (totalMatches == 0)
     {
-        Console.WriteLine("You win");
+        Console.WriteLine("AI Lose");
         goto Gameover;
     }
+
     goto matches;
 
 Gameover: ;
+
 
