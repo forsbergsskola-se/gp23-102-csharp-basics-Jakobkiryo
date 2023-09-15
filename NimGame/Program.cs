@@ -36,7 +36,7 @@ if (userInput >= 0 && totalMatches <= 24);
    int aiChoice = Random.Shared.Next(1, 4);
     Console.WriteLine($"The AI draws {aiChoice}");
     totalMatches -= aiChoice;
-    Console.WriteLine("Matches Reamining:" + totalMatches);
+    Console.WriteLine("Matches Remaining:" + totalMatches);
     if (totalMatches == 0)
     {
         Console.WriteLine("AI Lose");
