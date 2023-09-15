@@ -6,6 +6,7 @@ Console.WriteLine("Welcome to Nim");
 Console.WriteLine("|||||||||||||||||||||||| (24)");;
 
 int totalMatches = 24;
+bool playerTurn = true;
 
 matches:
     Console.WriteLine("How many matches do you want to draw?");
@@ -23,10 +24,10 @@ if (userInput >= 0 && totalMatches <= 24);
 
 //players turn. if player draws to 0 = lost
 
-    int userDraw = totalMatches - userInput;
+{   int userDraw = totalMatches - userInput;}
     Console.WriteLine($"Player draws {userInput}");
     totalMatches -= userInput;
-    if (totalMatches < 1)
+    if (totalMatches <= 0 )
     {
         Console.WriteLine("Player Lose");
         goto Gameover;
@@ -38,7 +39,7 @@ if (userInput >= 0 && totalMatches <= 24);
     totalMatches -= aiChoice;
     Console.WriteLine("Matches Remaining:" + totalMatches);
 
-if (totalMatches < 1)
+if (totalMatches <= 0 )
 {
     Console.WriteLine("AI Lose");
     goto Gameover;
