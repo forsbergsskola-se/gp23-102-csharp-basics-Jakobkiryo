@@ -26,7 +26,7 @@ if (userInput >= 0 && totalMatches <= 24);
     int userDraw = totalMatches - userInput;
     Console.WriteLine($"Player draws {userInput}");
     totalMatches -= userInput;
-    if (totalMatches == 0)
+    if (totalMatches < 1)
     {
         Console.WriteLine("Player Lose");
         goto Gameover;
@@ -37,13 +37,14 @@ if (userInput >= 0 && totalMatches <= 24);
     Console.WriteLine($"The AI draws {aiChoice}");
     totalMatches -= aiChoice;
     Console.WriteLine("Matches Remaining:" + totalMatches);
-    if (totalMatches == 0)
-    {
-        Console.WriteLine("AI Lose");
-        goto Gameover;
-    }
 
-    goto matches;
+if (totalMatches < 1)
+{
+    Console.WriteLine("AI Lose");
+    goto Gameover;
+}
+
+goto matches;
 
 Gameover: ;
 
